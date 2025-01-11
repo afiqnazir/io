@@ -92,10 +92,10 @@
       };
 
       return (
-        <div className="min-h-screen text-white">
+        <div className="min-h-screen text-white flex flex-col">
           <header className="flex justify-between items-center p-4 bg-dark-gray bg-opacity-70 rounded-full shadow-md">
             <div className="flex items-center">
-              <span className="text-2xl font-bold mr-2">OI</span>
+              <span className="text-2xl font-bold mr-2">IO</span>
             </div>
             <nav>
               <ul className="flex space-x-4">
@@ -104,7 +104,7 @@
               </ul>
             </nav>
           </header>
-          <div className="flex flex-col items-center justify-center p-4">
+          <div className="flex-1 flex flex-col items-center justify-center p-4">
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
               <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" id="image-upload" />
               <label htmlFor="image-upload" className="bg-light-blue hover:bg-dark-blue text-white font-bold py-2 px-4 rounded cursor-pointer">
@@ -170,6 +170,11 @@
               </div>
             </div>
           </div>
+          <footer className="flex justify-center items-center p-4 bg-dark-gray bg-opacity-70 rounded-full shadow-md mt-4">
+            <p className="text-gray-300">
+              Credits: <a href="https://www.instagram.com/4fiq.x" target="_blank" rel="noopener noreferrer" className="text-light-blue hover:underline">4fiq.x</a>
+            </p>
+          </footer>
         </div>
       );
     }
