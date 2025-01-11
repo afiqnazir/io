@@ -6,7 +6,7 @@
 
     const exampleResults = [
       {
-        imageUrl: "https://placekitten.com/200/300",
+        imageUrl: "/public/example-plant.jpg",
         results: "Name: Peace Lily\nScientific Name: Spathiphyllum\nCare: Low light, water when soil is dry\nOrigin: Tropical regions of America and Southeast Asia"
       },
       {
